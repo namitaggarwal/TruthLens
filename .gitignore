@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+*.iml
+.idea/
+*.iws
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google services (contains API keys)
+google-services.json
+
+# Local configuration
+.agentic-devx/
+local.properties
+
+# Kotlin
+kotlin/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db

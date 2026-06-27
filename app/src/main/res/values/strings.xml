@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TruthLens</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">TruthLens Content Monitor</string>
+    <string name="accessibility_service_description">TruthLens uses Accessibility Service to read visible text in selected apps so it can flag potentially misleading content. It never reads passwords, payment screens, or private banking apps. Monitoring is always opt-in and can be disabled at any time from the TruthLens app.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_monitoring">TruthLens Monitoring</string>
+    <string name="notification_channel_monitoring_desc">Shown while TruthLens is actively monitoring for misinformation</string>
+    <string name="notification_channel_alerts">TruthLens Alerts</string>
+    <string name="notification_channel_alerts_desc">Fact-check alert notifications</string>
+    <string name="notification_monitoring_title">TruthLens is active</string>
+    <string name="notification_monitoring_text">Monitoring for potentially misleading content</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Welcome to TruthLens</string>
+    <string name="onboarding_desc_1">TruthLens helps you identify potentially misleading, unverified, or manipulated content as you browse social media, news, and messaging apps.</string>
+    <string name="onboarding_title_2">How It Works</string>
+    <string name="onboarding_desc_2">When you view posts, articles, or videos in a monitored app, TruthLens quietly analyzes the content and shows a small alert if something may need verification.</string>
+    <string name="onboarding_title_3">Privacy First</string>
+    <string name="onboarding_desc_3">TruthLens never collects your messages, browsing history, or screenshots without your explicit consent. All monitoring is opt-in and you control which apps are monitored.</string>
+    <string name="onboarding_title_4">Permissions Needed</string>
+    <string name="onboarding_desc_4">TruthLens requires a few permissions to work. We\'ll explain each one clearly and you can continue with limited functionality if you prefer.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">App Monitoring</string>
+    <string name="dashboard_subtitle">Choose which apps TruthLens monitors</string>
+    <string name="last_scanned">Last scanned</string>
+    <string name="alerts_generated">alerts</string>
+    <string name="never_scanned">Never scanned</string>
+
+    <!-- Overlay -->
+    <string name="overlay_low_risk">No major misinformation signals found</string>
+    <string name="overlay_medium_risk">This claim may need verification</string>
+    <string name="overlay_high_risk">Potentially misleading information detected</string>
+    <string name="overlay_factcheck_available">Fact-check available — tap to review</string>
+    <string name="overlay_view_details">View Details</string>
+    <string name="overlay_dismiss">Dismiss</string>
+
+    <!-- Fact Check Detail -->
+    <string name="detail_title">Fact-Check Result</string>
+    <string name="detail_disclaimer">TruthLens provides informational signals and does not determine absolute truth. Always consult multiple reliable sources before forming conclusions or sharing information.</string>
+    <string name="detail_confidence">Confidence</string>
+    <string name="detail_why_flagged">Why it was flagged</string>
+    <string name="detail_fact_check_sources">Fact-check sources</string>
+    <string name="detail_reliable_sources">Reliable sources</string>
+    <string name="detail_unable_to_verify">Unable to verify this claim. Consider checking trusted sources before sharing.</string>
+    <string name="detail_copy_claim">Copy claim text</string>
+    <string name="detail_share_result">Share fact-check result</string>
+    <string name="detail_report_incorrect">Report incorrect classification</string>
+    <string name="detail_helpful_yes">Helpful</string>
+    <string name="detail_helpful_no">Not helpful</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Privacy</string>
+    <string name="settings_master_toggle">Master Monitoring</string>
+    <string name="settings_master_toggle_desc">Enable or disable all TruthLens monitoring</string>
+    <string name="settings_overlay_toggle">Show Overlay Alerts</string>
+    <string name="settings_overlay_toggle_desc">Display fact-check alerts over monitored apps</string>
+    <string name="settings_scan_delay">Scan Delay</string>
+    <string name="settings_scan_delay_desc">Wait this many seconds before scanning new content</string>
+    <string name="settings_battery_saver">Battery Saver Mode</string>
+    <string name="settings_battery_saver_desc">Reduce scan frequency to preserve battery life</string>
+    <string name="settings_wifi_only">Wi-Fi Only Verification</string>
+    <string name="settings_wifi_only_desc">Only use online fact-checking when connected to Wi-Fi</string>
+    <string name="settings_clear_history">Clear Scan History</string>
+    <string name="settings_clear_history_desc">Delete all locally stored scan records</string>
+    <string name="settings_export_data">Export My Data</string>
+    <string name="settings_delete_data">Delete All My Data</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_how_it_works">How TruthLens Works</string>
+    <string name="settings_manage_permissions">Manage Permissions</string>
+
+    <!-- History -->
+    <string name="history_title">Scan History</string>
+    <string name="history_empty">No scans yet. Enable monitoring to get started.</string>
+    <string name="history_delete_item">Delete this record</string>
+    <string name="history_clear_all">Clear All</string>
+
+    <!-- Common -->
+    <string name="continue_btn">Continue</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="granted">Granted</string>
+    <string name="not_granted">Not granted</string>
+    <string name="risk_low">Low Risk</string>
+    <string name="risk_medium">Needs Verification</string>
+    <string name="risk_high">Potentially Misleading</string>
+    <string name="risk_unknown">Unknown</string>
+</resources>
